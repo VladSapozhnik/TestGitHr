@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Alright';
+    src: url("../fonts/AlrightSans-Medium.woff2") format("woff2") , url("../fonts/AlrightSans-Medium.woff") format("woff") ;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans.woff2") format("woff2") , url("../fonts/OpenSans.woff") format("woff") ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Semibold.woff2") format("woff2") , url("../fonts/OpenSans-Semibold.woff") format("woff") ;
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url("../fonts/Sofia Pro Medium.woff2") format("woff2") , url("../fonts/Sofia Pro Medium.woff") format("woff") ;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url("../fonts/Sofia Pro Regular.woff2") format("woff2") , url("../fonts/Sofia Pro Regular.woff") format("woff") ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url("../fonts/Sofia Pro SemiBold.woff2") format("woff2") , url("../fonts/Sofia Pro SemiBold.woff") format("woff") ;
+    font-weight: normal;
+    font-style: bold;
+}

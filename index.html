@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/font.css">
+	<link rel="stylesheet" type="text/css" href="./css/">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.block {
+			width: 1266px;
+			margin: auto;
+		}
+
+		ul li {
+			display: block;
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		ul li a {
+			color:#191b1e;
+			text-decoration: none;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: Sofia Pro;
+		}
+
+		ul li a:hover {
+			color:#191b1e;
+			text-decoration: none;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: Sofia Pro;
+			border-top:2px solid #eed034;
+		}
+
+		div, p, a, form, button {
+			box-sizing: border-box;
+		}
+
+		.nav {
+			display: flex;
+			margin-top: 55px;
+		}
+
+		.nav-menu {
+			display: flex;
+			margin-left: auto;
+		}
+
+		.nav-menu li {
+			margin-right: 37px;
+		}
+
+		.nav-menu li a {
+			padding: 20px 0px;
+		}
+
+		li.active a {
+			border-top:2px solid #eed034;
+		}
+
+		h1 {
+			font-size: 70px;
+			margin-left: ;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+		.body_div {
+			width: 1060px;
+			margin: 0 auto;
+		}
+
+		p {
+			color: #ababab;
+			font-size: 14px;
+			font-family: ;
+		}
+
+		.comment-div_one {
+			float: left;
+			padding-left: 31px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: center;
+			width: 503px;
+			height: 300px;
+			margin-top:;
+		}
+
+		.p_marign {
+			margin-top: 24px;
+			font-family: Open Sans;
+		}
+
+		.h3_margin {
+			margin-top: 20px;
+			font-family: Open Sans;
+		}
+
+		.comment-div_two {
+			float: left;
+			width: 503px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: bottom;
+			height: 300px;
+			padding-left: 50px;
+			margin-top:;
+		}
+
+		.clearfix:after {
+		   content: " ";
+		   visibility: hidden;
+		   display: block;
+		   height: 0;
+		   clear: both;
+		}
+
+		.buttom {
+			width: 150px;
+			height: 55px;
+			background-color: #94e2a3;
+			text-align: center;
+			display: block;
+			border-radius: 5px;
+			margin-top: 26px;
+		}
+
+		a.buttom_a {
+			color: #1a1c1f;
+			text-decoration: none;
+			font-size: 16px;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+
+		.buttom-text_a {
+			display: block;
+			padding-top:15px;
+		}
+
+		.comment-div_three {
+			float: left;
+			padding-left: 31px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: center;
+			width: 503px;
+			height: 350px;
+		}
+
+		.comment-div_four {
+			float: left;
+			width: 503px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: bottom;
+			height: 300px;
+			padding-left: 50px;
+			margin-top: -20px;
+		}
+
+		.comment-div_five {
+			float: left;
+			padding-left: 31px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: center;
+			width: 503px;
+			height: 300px;
+		}
+
+		.comment-div_six {
+			float: left;
+			width: 503px;
+			background-image: url("./images/Rectangle 20.png");
+			background-position: bottom;
+			height: 300px;
+			padding-left: 50px;
+			margin-top: -30px;
+		}
+
+		h2.H2_Lorem {
+			text-align: center;
+			margin-top: 105px;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+		.button_Back {
+			display: block;
+			width: 212px;
+			height: 55px;
+			border: 1px solid #94e2a3;
+			border-radius: 3px;
+			position: relative;
+			margin:0 auto;
+			margin-bottom: 100px;
+		}
+
+		.botton_Back_text {
+			display: block;
+			text-align: center;
+			position: absolute;
+			top: 15px;
+			left: 50px;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+		.Back_img_button {
+			position: absolute;
+			top: 22px;
+			left: 35px;
+		}
+
+		.footer {
+			content: " ";
+			width: 100%;
+			height: 102px;
+			background-color: #232429;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.footer_list {
+			color: #d2d2d3;
+			font-size: 16px;
+			list-style-type: none;
+		}
+
+		.footer-div {
+			width: 1266px;
+			height: 100%;
+			margin: 0 auto;
+			display: flex;
+		}
+
+		.footer_Copyright {
+			font-size: 14px;
+			color: #4c4e5e;
+			display: flex;
+			margin-left:auto;
+			padding-top: 50px;
+			font-family: Sofia Pro;
+		}
+
+		ul.footer_list li {
+			padding-bottom: 15px;
+		}
+
+		ul.footer_list {
+			padding-top: 10px;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="block">
+		<nav class="nav">
+			<img src="./images/logo.png" alt="">
+			<ul class="nav-menu">
+				<li><a href="#">about us</a></li>
+				<li><a href="#">Write comment</a></li>
+				<li class="active"><a href="#">Comments</a></li>
+			</ul>
+		</nav>
+		<div class="body_div">
+			<h1>Comments</h1>
+			<div>	
+				<div class="comment-div_one">	
+					<div>
+						<h3 class="h3_margin">Lorem Ipsum is simply dummy text of the <br/>
+						printing and typesetting industry.</h3>
+						<p class="p_marign">Lorem Ipsum is simply dummy text of the printing and <br/>
+						typesetting industry. Lorem Ipsum has been the industry's <br/>
+						standard dummy text ever since the 1500s, when an unknown <br/>
+						printer took a galley of type and scrambled it to make a type <br/>
+						specimen book.</p>
+					</div>
+					<a href="a" class="buttom_a"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="comment-div_two">	
+					<div>
+						<h3 class="h3_margin">Why do we use it?</h3>
+						<p class="p_marign">Itis a long established fact that a reader will be distracted by the <br/>
+						readable content of a page when looking at its layout. The point <br/>
+						of using Lorem Ipsum is that it has a more-or-less normal <br/>
+						distribution.</p> <br/>
+					</div>
+					<a href="a" class="buttom_a"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="clearfix"></div>
+				<div class="comment-div_three">	
+					<div>
+						<h3 class="h3_margin">Lorem Ipsum is simply dummy text of the <br/>
+						printing and typesetting industry.</h3>
+						<p class="p_marign">Contrary to popular belief, Lorem Ipsum is not simply random <br/>
+						text. It has roots in a piece of classical Latin literature from 45 <br/>
+						BC, making it over 2000 years old. Richard McClintock, a Latin <br/>
+						professor at Hampden-Sydney College in Virginia, looked up one <br/>
+						of the more obscure Latin words, consectetur, from a Lorem <br/>
+						Ipsum passage, and going through the cites of the word in <br/>
+						classical literature, discovered the undoubtable source.</p>
+					</div>
+					<a href="a" class="buttom_a"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="comment-div_four">	
+					<div>
+						<h3 class="h3_margin">There are many variations of passages of <br/>
+						Lorem Ipsum available.</h3>
+						<p class="p_marign">Lorem Ipsum is simply dummy text of the printing and <br/>
+						typesetting industry. Lorem Ipsum has been the industry's <br/>
+						standard dummy text ever since the 1500s, when an unknown <br/>
+						printer took a galley of type and scrambled it to make a type <br/>
+						specimen book.</p>
+					</div>
+					<a href="a" class="buttom_a buttom_a_2"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="clearfix"></div>
+						<div class="comment-div_five">	
+					<div>
+						<h3 class="h3_margin">Lorem Ipsum is simply dummy text of the <br/>
+						printing and typesetting industry.</h3>
+						<p class="p_marign">If you are going to use a passage of Lorem Ipsum, you need to <br/>
+						be sure there isn't anything embarrassing hidden in the middle <br/>
+						of text.</p>
+					</div>
+					<a href="a" class="buttom_a"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="comment-div_six">	
+					<div>
+						<h3 class="h3_margin">What is Lorem Ipsum?</h3>
+						<p class="p_marign">There are many variations of passages of Lorem Ipsum available, <br/>
+						but the majority have suffered alteration in some form, by <br/>
+						injected humour, or randomised words which don't look even <br/>
+						slightly believable.</p>
+					</div>
+					<a href="a" class="buttom_a"><span class="buttom">
+						<span class="buttom-text_a">Read more</span>
+					</span></a>
+				</div>
+				<div class="clearfix"></div>
+				<H2 class="H2_Lorem">Lorem Ipsum is text of the typesetting industry</H2>
+				<a href="#" alt=""><span class="button_Back">
+					<img src="./images/Vector Smart Object1.png" alt="" class="Back_img_button">
+					<span class="botton_Back_text">Back to homepage</span>
+				</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-div">	
+			<ul class="footer_list">
+				<li>mail@mailtest.com</li>
+				<li>+30-6977664062</li>
+			</ul>
+			<div class="footer_Copyright">Copyright © 2019 Test All Rights Reserved</div>
+		</div>
+	</div>
+</body>
+</html>

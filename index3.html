@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/font.css">
+	<link rel="stylesheet" type="text/css" href="./css/">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.block {
+			width: 1266px;
+			margin: auto;
+		}
+
+		ul li {
+			display: block;
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		ul li a {
+			color:#191b1e;
+			text-decoration: none;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: Sofia Pro;
+		}
+
+		ul li a:hover {
+			color:#191b1e;
+			text-decoration: none;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: Sofia Pro;
+			border-top:2px solid #eed034;
+		}
+
+		div, p, a, form, button {
+			box-sizing: border-box;
+		}
+
+		.nav {
+			display: flex;
+			margin-top: 55px;
+		}
+
+		.nav-menu {
+			display: flex;
+			margin-left: auto;
+		}
+
+		.nav-menu li {
+			margin-right: 37px;
+		}
+
+		.nav-menu li a {
+			padding: 20px 0px;
+		}
+
+		li.active a {
+			border-top:2px solid #eed034;
+		}
+
+		.div-body_two {
+			width: 768px;
+			height: ;
+			margin: 0 auto;
+		}
+
+		.h1-three {
+			font-family: Sofia Pro;
+			font-weight: bold;
+			font-size: 48px;
+		}
+
+		.img-url_three {
+			width: 100%;
+			height: 600px;
+			content: ' ';
+			background-image: url("./images/Layer 131.png");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			margin-top: 74px;
+		}
+
+		.footer {
+			content: " ";
+			width: 100%;
+			height: 678px;
+			background-color: #232429;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.footer_list {
+			color: #d2d2d3;
+			font-size: 16px;
+			list-style-type: none;
+		}
+
+		.footer-div {
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			margin-top: 230px;
+			margin-bottom: -100px
+		}
+
+		.footer_Copyright {
+			font-size: 14px;
+			color: #4c4e5e;
+			display: flex;
+			margin-left:auto;
+			padding-top: 50px;
+			font-family: Sofia Pro;
+		}
+
+		ul.footer_list li {
+			padding-bottom: 15px;
+		}
+
+		ul.footer_list {
+			padding-top: 10px;
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+		ol.Who-list {
+			list-style-type: disc;
+			font-family: Sofia Pro;
+			padding-left: 0px;
+			font-size: 16px;
+		}
+
+		h2.h2-who_list {
+			font-family: Sofia Pro;
+			font-weight: bold;
+		}
+
+		ol.Who-list li {
+			padding-bottom: 18px;
+		}
+
+		.div-who {
+			width: 456px;
+			height: 356px;
+		}
+
+		.div-who_main {
+			margin-top: 114px;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			width: 100%;
+			height: 400px;
+			margin-left: 100px;
+		}
+
+		.margin-div_auto {
+			width: 1186px;
+			height: 400px;
+			margin: 0 auto;
+		}
+
+		input[type="text"] {
+			width: 594px;
+			height: 55px;
+			background-color: #232429; 
+			border: 1px solid #94e2a3; 
+			font-family: Sofia Pro; 
+			color: #94e2a3; font-size: 16px;
+			padding-left: 20px;
+		}
+
+		textarea {
+			width:592px; 
+			height:150px; 
+			background-color: #232429; 
+			border: 1px solid #94e2a3; 
+			font-family: Sofia Pro; 
+			color: #94e2a3; 
+			font-size: 16px; 
+			padding-left: 20px;
+			margin-top: 15px;
+		}
+		
+		textarea::-webkit-input-placeholder { 
+			color: #94e2a3; 
+			font-size: 16px; 
+		}
+
+		textarea:-moz-placeholder { 
+			color: #94e2a3; 
+			font-size: 16px; 
+		}
+
+		input[type="text"]::-webkit-input-placeholder { 
+			color: #94e2a3; 
+			font-size: 16px; 
+		}
+
+		input[type="text"]:-moz-placeholder { 
+			color: #94e2a3; 
+			font-size: 16px; 
+		}
+
+		form {
+			display: flex;
+			flex-flow: column nowrap;
+			margin-left: auto;
+		}
+
+		.button_footer {
+			width: 150px;
+			height: 55px;
+			background-color: #94e2a3;
+			border: 1px solid #94e2a3;
+			color: #232329;
+			font-family: Sofia Pro;
+			font-size: 16px;
+			border-radius: 5px;
+			margin-top: 15px;
+		}
+
+		.h1-footer {
+			font-family: Sofia Pro;
+			font-weight: bold;
+			font-size: 55px;
+			color: #ffffff;
+			border-bottom: 5px solid #eed034;
+			width: 70px;
+			margin-top: -15px;
+			margin-bottom: 110px;
+		}
+
+		.form {
+			display: flex;
+		}
+
+		.div-form {
+			width: 1006px;
+			height: 293px;
+			margin: 0 auto;
+			padding-top: 139px
+		}
+	</style>
+</head>
+<body>
+	<div class="block">
+		<nav class="nav">
+			<img src="./images/logo.png" alt="">
+			<ul class="nav-menu">
+				<li><a href="#">about us</a></li>
+				<li><a href="#">Write comment</a></li>
+				<li class="active"><a href="#">Comments</a></li>
+			</ul>
+		</nav>
+		<div class="div-body_two">
+			<h1 class="h1-three">Lorem Ipsum is simply <br/>
+			dummy text of the printing <br/>
+			and typesetting industry</h1>
+		</div>
+	</div>
+	<div class="img-url_three"></div>
+	<div class="margin-div_auto">	
+		<div class="div-who_main">
+			<div class="div-who">
+				<img src="./images/Vector Smart Object11.png" class="img-who_list" alt="">
+				<h2 class="h2-who_list">Who we are</h2>
+				<ol class="Who-list">
+					<li>It is a long established fact that a <br/>
+					reader will be distracted</li>
+					<li>The readable content of a page <br/>
+					when looking at its layout</li>
+					<li>The point of using Lorem Ipsum</li>
+					<li>As opposed to using 'Content here, <br/>
+					content here'.</li>
+				</ol>
+			</div>
+			<div class="div-who">
+				<img src="./images/Vector Smart Object.png" class="img-who_list" alt="">
+				<h2 class="h2-who_list">Who we do</h2>
+				<ol class="Who-list">
+					<li>Many desktop publishing <br/>
+					packages and web page</li>
+					<li>There are many variations <br/>
+					of passages of Lorem Ipsum <br/>
+					available, but the majority have</li>
+					<li>Various versions have evolved <br/>
+					over the years, sometimes by <br/>
+					accident</li>
+				</ol>
+			</div>
+			<div class="div-who">
+				<img src="./images/Vector Smart Object6.png" class="img-who_list" alt="">
+				<h2 class="h2-who_list">Technology</h2>
+				<ol class="Who-list">
+					<li>The point of using Lorem Ipsum</li>
+					<li>As opposed to using 'Content <br/>
+					here, content here'</li>
+					<li>Contrary to popular belief, Lorem <br/>
+					Ipsum is not simply random text</li>
+					<li>A Latin professor at <br/>
+					Hampden-Sydney College in <br/>
+					Virginia</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="div-form">
+			<div class="form">
+				<h1 class="h1-footer">Write <br/>
+				comment</h1>
+				<form>
+					<input type="text" name="text" placeholder="Title">
+					<textarea placeholder="Your comment" style=""></textarea>
+					<button class="button_footer">Send</button>
+				</form>
+			</div>
+		</div>
+		<div class=footer-div>	
+			<ul class="footer_list">
+				<li>mail@mailtest.com</li>
+				<li>+30-6977664062</li>
+			</ul>
+			<div class="footer_Copyright">Copyright © 2019 Test All Rights Reserved</div>
+		</div>
+	</div>
+</body>
+</html>
